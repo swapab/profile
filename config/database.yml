@@ -1,0 +1,31 @@
+development:
+  adapter: postgresql
+  database: profile_development
+  pool: 5
+  username: postgres
+  password:
+  host: localhost
+
+test:
+  adapter: postgresql
+  database: profile_test
+  pool: 5
+  username: postgres
+  password:
+  host: localhost
+
+staging:
+  adapter: postgresql
+  database: profile_empty
+  pool: 5
+  username: postgres
+  password:
+  host: localhost
+
+production:
+  adapter: postgresql
+  database: profile_production
+  pool: 5
+  username: postgres
+  password:
+  host: localhost
