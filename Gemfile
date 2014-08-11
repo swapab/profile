@@ -2,7 +2,7 @@ ruby "2.1.1"
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails',              '4.0.4'
+gem 'rails',              '4.1.4'
 
 # Use SCSS for stylesheets
 gem 'sass-rails',         '~> 4.0.2'
@@ -30,6 +30,8 @@ gem 'foundation-rails',   '~> 5.2.1.0'
 gem 'thread_safe', '~> 0.3.4'
 
 gem 'newrelic_rpm'
+
+gem 'gem-dependent'
 
 group :development, :test do
   gem 'rails_layout'
