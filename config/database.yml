@@ -1,5 +1,5 @@
 development:
-  adapter: postgresql
+  adapter: mysql2
   database: profile_development
   pool: 5
   username: postgres
@@ -7,11 +7,11 @@ development:
   host: localhost
 
 test:
-  adapter: postgresql
+  adapter: mysql2
   database: profile_test
   pool: 5
-  username: postgres
-  password:
+  username: default
+  password: defaultpassword
   host: localhost
 
 staging:
