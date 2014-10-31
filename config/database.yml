@@ -27,5 +27,5 @@ production:
   database: profile_production
   pool: 5
   username: postgres
-  password:
+  password: JnmRy2gBw2GZsgn
   host: localhost
